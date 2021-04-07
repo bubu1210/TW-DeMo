@@ -1,0 +1,26 @@
+<html>
+<head> 
+<meta charset="UTF-8">
+<meta name="description" content="Pagina cu descrierea detinutului cu numarul 1">
+<title>Inregistrare</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:gray;">
+<p>Pentru a inregistra o vizita completati formularul de mai jos </p>
+<form action="procesat.html">
+     <label for="fnume">Numele si prenumele:</label><br>
+     <input type="text"  id="fname" name="fname" placeholder="Introducezi-va numele si prenumele"><br><br>
+	 
+	 <label for="fdata">Introduceti data si ora la care doriti sa efectuati vizita:</label><br>
+	 <input type="datetime-local" id="fdata" name="fdata"><br><br>
+	 
+	 <label for="frelatie">Selectati relatia voastra cu prizonierul:</label><br>
+	 
+	 <input type="radio" name="frelatie" value="frelatie">Familie
+	 <input type="radio" name="frelatie" value="frelatie">Prieten
+	 <input type="radio" name="frelatie" value="frelatie">Cunoscut<br>
+	 
+	 <input type="submit" value="Submit">
+</form>
+</body>
+</html>

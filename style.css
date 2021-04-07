@@ -1,0 +1,28 @@
+p {
+	color: red;
+}
+
+p.stanga {
+	color: purple;
+	width: 830px; 
+	
+}
+
+h1.fixed{
+	position: fixed;
+	left:830;
+	color:red
+	
+}
+
+img.inchisoare{
+	position: absolute;
+	right: 5px;
+	width: 700px;
+}
+
+img.prizonier{
+	position: absolute;
+	right: 5px;
+	width: 500px;
+}
