@@ -31,23 +31,19 @@ img.inchisoare{
 	width: 700px;
 }
 
-prizonier.img.prizonier{
-	position: relative;
-	right: 5px;
-	width: 500px;
-}
 
 .carusel{
 	position: absolute;
 	right: 100px;
-	height: 50%;
-	width: 500px;
+	height: 90%;
+	width: 700px;
 }
 
 .imagine_carusel{
      width:100%;
 	 height:99%;
 	 object-fit: cover;
+	 
 }
 
 .container_carusel{
