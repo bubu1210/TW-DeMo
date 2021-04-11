@@ -6,21 +6,25 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body style="background-color:gray;">
-<p>Pentru a inregistra o vizita completati formularul de mai jos </p>
+<h1 class="priz";>Pentru a inregistra o vizita completati formularul de mai jos: </h1>
 <form action="procesat.html">
      <label for="fnume">Numele si prenumele:</label><br>
      <input type="text"  id="fname" name="fname" placeholder="Introducezi-va numele si prenumele"><br><br>
 	 
+	 <label for="fmail">Adresa de e-mail:</label><br>
+     <input type="text"  id="fmail" name="fmail" placeholder="Va vom confirma vizita pe aceasta adresa"><br><br>
+	 
 	 <label for="fdata">Introduceti data si ora la care doriti sa efectuati vizita:</label><br>
-	 <input type="datetime-local" id="fdata" name="fdata"><br><br>
+	 <input type="datetime-local" id="fdata" name="fdata"><br><i>Atentie! Nu se poate efectua o vizita mai devreme de o saptamana de la data la care a fost trimisa, deci completati data corespunzator.</i><br><br><br>	 	 
 	 
 	 <label for="frelatie">Selectati relatia voastra cu prizonierul:</label><br>
 	 
 	 <input type="radio" name="frelatie" value="frelatie">Familie
 	 <input type="radio" name="frelatie" value="frelatie">Prieten
-	 <input type="radio" name="frelatie" value="frelatie">Cunoscut<br>
+	 <input type="radio" name="frelatie" value="frelatie">Avocat
+	 <input type="radio" name="frelatie" value="frelatie">Tutore<br>
 	 
-	 <input type="submit" value="Submit">
+	 <input type="submit" value="Trimiteti">
 </form>
 </body>
 </html>
