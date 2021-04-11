@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Profil - Detention Monitoring Tool</title>
+        <meta charset="utf-8"/>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="stil.css"/>
+    </head>
+    <body>
+        <div class="header">
+            <div class="title"><a href="index.html">Detention Monitoring Tool</a></div>
+            <div class="menu">
+                <a href="profil.html">Profil, user...</a>
+                <a href="index.html" class="current">Logout</a>
+            </div>
+        </div>
+        <div class="body profil">
+            <div class="head">
+                <img src="profil.jpg">
+                <span>Nume Prenume vizitator</span>
+            </div>
+            <form>
+                <input type="text" placeholder="Change Username" required/>
+                <input type="password" placeholder="Change Password" required/>
+                <input type="text" placeholder="Change Adresa" required/>
+                <input type="email" placeholder="Change Email" required/>
+                <label for="foto">Fotografie:</label>
+                <input type="file" id="foto"/>
+                <input type="submit"/>
+            </form>
+            <div class="vizite">
+                <p>Lista vizitelor</p>
+                <ul>
+                    <li><a href= "vizita.html">Vizita cu id-ul #001 </a></li>
+                    <li><a href= "vizita.html">Vizita cu id-ul #002 </a></li>
+                    <li><a href= "vizita.html">Vizita cu id-ul #003 </a></li>
+                    <li><a href= "vizita.html">Vizita cu id-ul #004 </a></li>
+                    <li><a href= "vizita.html">Vizita cu id-ul #005 </a></li>
+                    <li><a href= "vizita.html">Vizita cu id-ul #006 </a></li>
+                    <li><a href= "vizita.html">Vizita cu id-ul #007 </a></li>
+                    <li><a href= "vizita.html">Vizita cu id-ul #008 </a></li>
+                    <li><a href= "vizita.html">Vizita cu id-ul #009 </a></li>
+                    <li><a href= "vizita.html">Vizita cu id-ul #010 </a></li>
+                    <li><a href= "vizita.html">Vizita cu id-ul #011 </a></li>
+                    <li><a href= "vizita.html">Vizita cu id-ul #012 </a></li>
+                    <li><a href= "vizita.html">Vizita cu id-ul #013 </a></li>
+                    <li><a href= "vizita.html">Vizita cu id-ul #014 </a></li>
+                    <li><a href= "vizita.html">Vizita cu id-ul #015 </a></li>
+
+                    
+                </ul>
+            </div>
+            <div class="export">
+                <p>Export vizite</p>
+                <form>
+                    <label for="html">HTML</label>
+                    <input type="radio" id="html" name="export">
+                    <label for="json">JSON</label>
+                    <input type="radio" id="json" name="export">
+                    <label for="csv">CSV</label>
+                    <input type="radio" id="csv" name="export">
+                    <button>Export</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
