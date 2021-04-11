@@ -109,7 +109,7 @@ body{
     text-align:center;
 }
 
-.login input, .login form a, .profil input:not([type=radio]), .profil button, .choice a{
+.login input:not([type=radio]), .login form a, .profil input:not([type=radio]), .profil button, .choice a{
     background: rgba(0,0,0,.4);
     box-shadow:0 0 1em rgba(0,0,0,.5);
     color:white;
@@ -156,6 +156,27 @@ body{
     box-shadow:0 0 1em rgba(0,0,0,.7);
     background:rgba(255,255,255,.7);
 }
+
+.admin .cere{
+    font-size:1.2em;
+    transition:.3s ease;
+    margin-top:1em;
+    cursor:pointer;
+    background: rgba(255,255,255,.4);
+    box-shadow:0 0 1em rgba(0,0,0,.5);
+    color:black;
+    border:none;
+    padding:.5em;
+    font-family:inherit;
+    border-radius:.3em;
+    vertical-align:middle;
+}
+
+.admin .cere:hover{
+    box-shadow:0 0 1em rgba(0,0,0,.7);
+    background:rgba(255,255,255,.7);
+}
+
 
 .profil{
     text-align: center;
@@ -205,11 +226,11 @@ body{
     text-decoration: underline;
 }
 
-.profil .tip_login{
+.profil .tip{
     margin-top:3em;
 }
 
-.profil .tip_login p{
+.profil .tip p{
     font-size:1.1em;
     text-decoration: underline;
 }
@@ -222,6 +243,11 @@ body{
     font-size:.9em;
     padding:.4em .7em;
     width:initial;
+}
+
+.profil a:hover{
+    font-size:1.1em;
+    color:black
 }
 
 .vizita h1{
